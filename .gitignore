@@ -1,0 +1,74 @@
+.DS_Store
+server/target/
+server/target/*
+database/
+server/*.classpath
+server/*.project
+*.pmd
+*.ruleset
+*.checkstyle
+*.settings/
+*.db
+*.log
+bin/
+bin-debug/
+*.bak
+*.orig
+.metadata/
+files/
+.externalToolBuilders
+server/target/
+*.db
+*.zip
+nginx/front/
+server/src/main/webapp/front/
+server/src/main/webapp/node_modules/
+server/src/main/webapp/bower_components/
+server/src/main/webapp/builds/
+build/telecontrole.jar
+
+
+**/.DS_Store
+
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+IOS/telecontrole/Build/
+**/DerivedData
+
+## Various settings
+**/*.pbxuser
+**/!default.pbxuser
+**/*.mode1v3
+**/!default.mode1v3
+**/*.mode2v3
+**/!default.mode2v3
+**/*.perspectivev3
+**/!default.perspectivev3
+**/xcuserdata
+
+## Other
+**/*.xccheckout
+**/*.moved-aside
+**/*.xcuserstate
+**/*.xcscmblueprint
+
+## Obj-C/Swift specific
+**/*.hmap
+**/*.ipa
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+**/.build/
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+**/Pods/
